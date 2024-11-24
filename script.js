@@ -25,6 +25,7 @@ downloadQr.addEventListener("click",(e)=>{
         downloadQr.setAttribute("download","QR_code.png");
         downloadQr.setAttribute("href",attribute);
     }else{
+        e.preventDefault();
         alert("Generate the img first !")
     }
     
