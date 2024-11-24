@@ -21,6 +21,8 @@ downloadQr.addEventListener("click",(e)=>{
 
     if(qrImage !== null){
         let attribute = qrImage.getAttribute("src");
+
+        downloadQr.setAttribute("download","QR_code.png");
         downloadQr.setAttribute("href",attribute);
     }else{
         alert("Generate the img first !")
