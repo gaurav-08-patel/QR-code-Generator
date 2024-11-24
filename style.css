@@ -88,6 +88,9 @@ footer a {
     h1{
         font-size: 20px;
     }
+    .qr-body img {
+        border-width:2px ;
+    }
 
 }
 @media (max-width:360px){
